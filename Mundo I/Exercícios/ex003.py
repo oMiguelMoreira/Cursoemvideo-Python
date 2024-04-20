@@ -7,5 +7,3 @@ num2=int(num2)
 soma= num1+num2
 
 print('A soma entre o primeiro e segundo número é:',soma)
-
-
