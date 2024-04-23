@@ -1,4 +1,7 @@
-import math
-num = float(input(print('Digite um número: ')))
+'''import math
 
-print('O número {} tem a parte inteira {}'.format(num, math.trunc(num)))
+num = float(input('Digite um valor: '))
+print('O valor de {} tem a sua parte inteira de {}'.format(num, math.trunc(num)))'''
+
+num = float(input('Digite um valor: '))
+print('O valor de {} tem a sua parte inteira de {}'.format(num, int(num)))
