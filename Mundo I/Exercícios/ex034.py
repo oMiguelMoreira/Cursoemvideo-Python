@@ -1,7 +1,7 @@
-s = float(input('Qual o salário do funcionário? '))
+s = float(input('Qual o salário do funcionário? R$'))
 
-sma = s + 125
-sme = s + 187,5
+sma = s + 150
+sme = s + 500
 
 if s <= 1.250:
     print('O seu novo salário é de R${}'.format(sme))
