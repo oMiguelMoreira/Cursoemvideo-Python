@@ -1,5 +1,7 @@
+from datetime import date
+atual = date.today().year
+
 ano = int(input('Qual o seu ano de nascimento? '))
-atual = 2024
 
 idade = atual - ano
 idade_alistar = 18

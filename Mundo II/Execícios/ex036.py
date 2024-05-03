@@ -7,4 +7,4 @@ if p > salario * 30/100:
     print('O seu empréstimo foi negado!')
     print('A prestação excedeu 30% de seu sálario!')
 else:
-    print('O valor da prestação mensal será de R${:.2f} por {} anos'.format(p,anos))
+    print('O valor da prestação mensal será de R${:.2f} por {} anos \nEmpréstimo Concedido '.format(p,anos))
